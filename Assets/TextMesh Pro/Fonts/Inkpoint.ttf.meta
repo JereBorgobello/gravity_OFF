@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 6a54bbeb5dcad1b4089c55baba9d16a7
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Inkpoint
+  fontNames:
+  - Inkpoint
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 4858a3cc23a75c84fa5b97bf170a04ab, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
