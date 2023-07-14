@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg12"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="pj.svg"
+   inkscape:export-filename="Sprites\personaje.png"
+   inkscape:export-xdpi="96.639732"
+   inkscape:export-ydpi="96.639732"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview14"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.43059924"
+     inkscape:cx="11.611725"
+     inkscape:cy="611.93791"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:pageshadow="2" />
+  <defs
+     id="defs9" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#000000;stroke:#ffffff;stroke-width:1.00966;stroke-dasharray:none;stroke-opacity:1"
+       d="M 2.6244853,294.70172 207.55912,294.59098 C 207.55912,294.59098 185.70536,154.80495 170,119 152.95514,80.141283 57.037608,80.64088 40,119 24.02235,154.97269 2.6244853,294.70172 2.6244853,294.70172 Z"
+       id="path224"
+       sodipodi:nodetypes="ccssc" />
+    <ellipse
+       style="fill:#000000;stroke:#ffffff;stroke-width:0.8456;stroke-dasharray:none;stroke-opacity:1"
+       id="path2827"
+       cx="104.27627"
+       cy="54.745041"
+       rx="55.691204"
+       ry="53.953266" />
+    <ellipse
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.825738;stroke-dasharray:none;stroke-opacity:1"
+       id="path2829"
+       cx="87.5"
+       cy="49.096741"
+       rx="12.087132"
+       ry="17.900993" />
+    <ellipse
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.825737;stroke-dasharray:none;stroke-opacity:1"
+       id="path2829-1"
+       cx="122.5"
+       cy="48.756859"
+       rx="12.087132"
+       ry="17.900991" />
+  </g>
+</svg>
