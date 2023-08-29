@@ -990,7 +990,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 722850494}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.76, z: 0}
+  m_LocalPosition: {x: 0, y: -2.36, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1602929769}
@@ -1164,7 +1164,7 @@ GameObject:
   - component: {fileID: 933150301}
   - component: {fileID: 933150300}
   - component: {fileID: 933150299}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: wrerer (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2091,11 +2091,11 @@ MonoBehaviour:
   groundCheck: {fileID: 722850495}
   groundLayer:
     serializedVersion: 2
-    m_Bits: 448
+    m_Bits: 512
   wallCheck: {fileID: 1167452493}
   wallLayer:
     serializedVersion: 2
-    m_Bits: 448
+    m_Bits: 256
   isWallJumping: 0
   wallJumpingPower: {x: 15, y: 10}
 --- !u!61 &1602929766
@@ -2111,7 +2111,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.02609554, y: 0.08343351}
+  m_Offset: {x: -0.02609551, y: -0.04907167}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2122,7 +2122,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.9934094, y: 3.2631333}
+  m_Size: {x: 1.9934094, y: 3.5281436}
   m_EdgeRadius: 0
 --- !u!50 &1602929767
 Rigidbody2D:
