@@ -44,14 +44,4 @@ public class Pausa : MonoBehaviour
         Time.timeScale = 1;
         isPaused = false;
     }
-
-    public void Ayuda()
-    {
-        SceneManager.LoadScene(1);
-    }
-
-    public void Salir()
-    {
-        SceneManager.LoadScene(0);
-    }
 }
