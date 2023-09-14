@@ -1026,37 +1026,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_RenderShadows: 1
-  m_RequiresDepthTextureOption: 2
-  m_RequiresOpaqueTextureOption: 2
-  m_CameraType: 0
-  m_Cameras: []
-  m_RendererIndex: -1
-  m_VolumeLayerMask:
-    serializedVersion: 2
-    m_Bits: 1
-  m_VolumeTrigger: {fileID: 0}
-  m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
-  m_Antialiasing: 0
-  m_AntialiasingQuality: 2
-  m_StopNaN: 0
-  m_Dithering: 0
-  m_ClearDepth: 1
-  m_AllowXRRendering: 1
-  m_UseScreenCoordOverride: 0
-  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
-  m_RequiresDepthTexture: 0
-  m_RequiresColorTexture: 0
-  m_Version: 2
-  m_TaaSettings:
-    quality: 3
-    frameInfluence: 0.1
-    jitterScale: 1
-    mipBias: 0
-    varianceClampScale: 0.9
-    contrastAdaptiveSharpening: 0
 --- !u!1 &535329604
 GameObject:
   m_ObjectHideFlags: 0
@@ -1214,11 +1183,11 @@ MonoBehaviour:
   groundCheck: {fileID: 1617204277}
   groundLayer:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 768
   wallCheck: {fileID: 848845360}
   wallLayer:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 768
   isWallJumping: 0
   wallJumpingPower: {x: 15, y: 10}
 --- !u!61 &535329608
@@ -1740,9 +1709,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_EffectColor: {r: 1, g: 1, b: 1, a: 1}
-  m_EffectDistance: {x: 1, y: -1}
-  m_UseGraphicAlpha: 1
 --- !u!1 &1023161155
 GameObject:
   m_ObjectHideFlags: 0
@@ -1993,7 +1959,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1529647399}
+      - m_Target: {fileID: 1023161156}
         m_MethodName: ResumeGame
         m_Mode: 1
         m_Arguments:
@@ -2419,7 +2385,6 @@ GameObject:
   - component: {fileID: 1529647402}
   - component: {fileID: 1529647401}
   - component: {fileID: 1529647400}
-  - component: {fileID: 1529647399}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2427,19 +2392,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!114 &1529647399
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1529647398}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb02d03b35e08f64098e4142e1f4a53c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvas: {fileID: 1529647398}
 --- !u!114 &1529647400
 MonoBehaviour:
   m_ObjectHideFlags: 0

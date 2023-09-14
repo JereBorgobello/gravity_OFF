@@ -509,7 +509,6 @@ GameObject:
   - component: {fileID: 418367070}
   - component: {fileID: 418367069}
   - component: {fileID: 418367068}
-  - component: {fileID: 418367067}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -517,19 +516,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!114 &418367067
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 418367066}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb02d03b35e08f64098e4142e1f4a53c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvas: {fileID: 418367066}
 --- !u!114 &418367068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -703,7 +689,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 418367067}
+      - m_Target: {fileID: 581533557}
         m_MethodName: ResumeGame
         m_Mode: 1
         m_Arguments:
@@ -2303,11 +2289,11 @@ MonoBehaviour:
   groundCheck: {fileID: 1585208926}
   groundLayer:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 768
   wallCheck: {fileID: 1305031730}
   wallLayer:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 768
   isWallJumping: 0
   wallJumpingPower: {x: 15, y: 10}
 --- !u!61 &1259768787
