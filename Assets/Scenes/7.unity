@@ -195,7 +195,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 8a3507e064a55284ba247f919820669c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -252,7 +252,7 @@ GameObject:
   - component: {fileID: 164020530}
   - component: {fileID: 164020529}
   - component: {fileID: 164020528}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: wrerer (11)
   m_TagString: Moveable
   m_Icon: {fileID: 0}
@@ -323,7 +323,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 8a3507e064a55284ba247f919820669c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2615,7 +2615,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.046858322, g: 0.0574295, b: 0.254717, a: 0.392}
+  m_Color: {r: 0, g: 0.003921569, b: 0.101960786, a: 0.392}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -3286,7 +3286,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 418367068}
-        m_MethodName: Salir
+        m_MethodName: Atras
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
